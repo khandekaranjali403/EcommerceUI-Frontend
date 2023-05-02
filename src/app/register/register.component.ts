@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm } from '@angular/forms';
+import { FormControl, NgForm,  } from '@angular/forms';
 import { Router } from '@angular/router';
 import { UserService } from '../_services/user.service';
 
@@ -12,6 +12,8 @@ export class RegisterComponent implements OnInit {
 
   constructor(private userService: UserService,
     private router: Router) { }
+
+  
 
   ngOnInit(): void {
   }
